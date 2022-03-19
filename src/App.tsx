@@ -5,8 +5,9 @@ import Nav from './components/Nav'
 
 import Home from './views/Home'
 import About from './views/About'
-import Index from './views/Index'
 import NotFound from './views/NotFound'
+import Index from './views/students/index'
+import CreateStudent from './views/students/create'
 
 const App = () => {
   return (
@@ -14,13 +15,16 @@ const App = () => {
       <Nav />
       <Switch>
         <Route exact path="/">
-          <Home />
+					<Index/>
         </Route>
         <Route path="/about">
           <About />
         </Route>
         <Route path="/index">
-          <Index />
+          <Index/>
+        </Route>
+				<Route path="/add-student">
+          <CreateStudent/>
         </Route>
         <Route>
           <NotFound />
