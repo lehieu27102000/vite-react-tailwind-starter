@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vite + React + Tailwind CSS starter
 
 Inspired by [posva's](https://github.com/posva) [vite-tailwind-starter](https://github.com/posva/vite-tailwind-starter)
@@ -38,3 +39,6 @@ yarn dev
 ```sh
 yarn build
 ```
+=======
+# vite-react-tailwind-starter
+>>>>>>> c2c4118b1eac0a5737be95979af0a8280a23ba0c
