@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 
 import Home from './views/Home'
 import About from './views/About'
+import Index from './views/Index'
 import NotFound from './views/NotFound'
 
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/index">
+          <Index />
         </Route>
         <Route>
           <NotFound />
