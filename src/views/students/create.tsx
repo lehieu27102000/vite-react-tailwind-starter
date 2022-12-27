@@ -5,7 +5,7 @@ const CreateStudent = () => {
 	const [studentName, setStudentName] = useState()
 	const handleChangeStudentName = useCallback((newValue) => setStudentName(newValue), [])
   return (
-    <React.Fragment>
+    <>
       <main>
 				<Page title='Tạo học viên' fullWidth>
 					<Layout>
@@ -48,7 +48,7 @@ const CreateStudent = () => {
 					</Layout>
 				</Page>
       </main>
-    </React.Fragment>
+    </>
   );
 };
 
